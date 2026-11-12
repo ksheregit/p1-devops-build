@@ -1,0 +1,18 @@
+
+# Exclude Git repository metadata, No need to send commit history and Git objects to Docker
+.git/
+
+# Exclude Git ignore configuration, Not required inside the Docker build context
+.gitignore
+
+# Exclude local Node.js dependencies, Dependencies will be installed inside the Docker image
+node_modules/
+
+# Exclude all log files, Not required to build the application image
+*.log
+
+# Exclude Docker Compose configuration, Used to orchestrate containers, not normally needed inside the application image
+docker-compose.yml
+
+# Exclude project documentation, README is useful for developers but not required to run the application
+README.md

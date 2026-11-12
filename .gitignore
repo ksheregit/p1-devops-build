@@ -1,0 +1,12 @@
+
+# Ignore Node.js dependencies, These can be recreated by running: npm install
+node_modules/
+
+# Ignore environment variables May contain sensitive information such as passwords and API keys
+.env
+
+# Ignore all log files, These are generally temporary runtime/debugging files
+*.log
+
+# Ignore macOS system metadata files, Not required for application execution
+.DS_Store
