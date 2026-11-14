@@ -16,3 +16,6 @@ docker-compose.yml
 
 # Exclude project documentation, README is useful for developers but not required to run the application
 README.md
+
+docs
+screenshots
